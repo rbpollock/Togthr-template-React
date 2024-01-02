@@ -13,7 +13,7 @@ import { DynamicConnectButton, DynamicWidget } from '@dynamic-labs/sdk-react-cor
 import { useDynamicContext } from "@dynamic-labs/sdk-react-core";
 
 
-const Home = (props) => {
+const Dashboard = (props) => {
   return (
     <div className="home-container">
       <Helmet>
@@ -1153,4 +1153,4 @@ document.addEventListener("DOMContentLoaded", function() {
   )
 }
 
-export default Home
+export default Dashboard

@@ -26,9 +26,15 @@
   position: absolute;
   object-fit: cover;
 }
+.dynamic-widget__container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 .home-navbar {
   width: 100%;
   display: flex;
+  flex-wrap: wrap;
   z-index: 1000;
   position: relative;
   max-width: var(--dl-size-size-maxwidth);
@@ -37,8 +43,10 @@
 }
 .home-branding {
   width: 297px;
-  height: 50px;
-  object-fit: cover;
+  object-fit: fill;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  
 }
 .home-burger-menu {
   display: flex;
@@ -182,7 +190,7 @@
 .home-heading {
   color: rgb(255, 255, 255);
   font-size: 100px;
-  max-width: 790px;
+  max-width: 60vw;
   font-style: normal;
   font-weight: 500;
 }
@@ -195,7 +203,7 @@
   color: rgb(255, 255, 255);
   width: 794px;
   font-size: 24px;
-  max-width: 600px;
+  max-width: 80vw;
   line-height: 36px;
 }
 .home-note {

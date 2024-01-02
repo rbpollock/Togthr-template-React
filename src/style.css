@@ -49,7 +49,7 @@
   border-radius: 40px;
   padding-right: var(--dl-space-space-twounits);
   padding-bottom: var(--dl-space-space-oneandhalfunits);
-  background-color: #0000F5;
+  background-color: #DBA627;
 }
 .button:hover {
   opacity: 0.7;
@@ -105,7 +105,7 @@
   opacity: 0.5;
 }
 .slide-title-active {
-  border-color: #0000F5;
+  border-color: #f56e00;
 }
 .banner {
   cursor: pointer;
@@ -114,7 +114,7 @@
   align-items: flex-start;
   border-width: 0px;
   flex-direction: row;
-  background-color: #0000F5;
+  background-color: #DBA627;
 }
 .banner-smaller {
   width: 620px;
