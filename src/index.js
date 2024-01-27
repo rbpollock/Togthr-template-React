@@ -19,6 +19,8 @@ import {
 import { EthereumWalletConnectors } from "@dynamic-labs/ethereum";
 import { SolanaWalletConnectors } from "@dynamic-labs/solana";
 import { CosmosWalletConnectors } from "@dynamic-labs/cosmos";
+import { MagicWalletConnectors } from "@dynamic-labs/magic";
+
 const App = () => {
   return (
     <DynamicContextProvider
@@ -28,7 +30,8 @@ const App = () => {
       walletConnectors: [
         EthereumWalletConnectors,
         CosmosWalletConnectors,
-        SolanaWalletConnectors
+        SolanaWalletConnectors,
+        MagicWalletConnectors
       ],
     }}
   >
